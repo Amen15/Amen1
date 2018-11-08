@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "509357857666236430"; // 508267801149177856
-var channel = "509357857666236434";// 510080072342962196
+var server = "508267801149177856"; // 
+var channel = "510080072342962196";// 
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
